@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/billmalarky/react-native-queue.git"
+    "url": "git+https://github.com/lainaireau/react-native-queue.git"
   },
   "keywords": [
     "react",
@@ -26,8 +26,10 @@
   "homepage": "https://github.com/billmalarky/react-native-queue#readme",
   "dependencies": {
     "promise-reflect": "^1.1.0",
-    "react-native-uuid": "^1.4.9",
-    "realm": "^2.0.12"
+    "react-native-uuid": "^1.4.9"
+  },
+  "peerDependencies": {
+    "realm": "^5.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
